@@ -1,0 +1,279 @@
+body{
+    background-color: rgb(236, 236, 236);
+    overflow-x: hidden;
+}
+.background img{    
+    position: relative;
+    width: 102%;
+    top: -2.4vh;
+    display: cover;
+    left: -2vh;
+    overflow-x: hidden;
+    z-index: -1;
+    clear: both;
+}
+.nav-bar{
+    list-style: none;    
+    margin: 2em 11% 0 1em;
+    padding: 1vh;    
+    display: block;  
+    position: absolute; right: 2vh;
+}
+.nav-bar li{
+    justify-content: space-between;
+    max-width: 120em;    
+    margin: 1em;
+    display: inline-block;
+    float: none;    
+}
+
+.nav-bar li:nth-child(1){
+    color: blue;
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    color: white;
+    font-family: AladinPro;    
+    font-style: initial;
+    display: block;
+    padding: 5px;
+  
+}
+.nav-bar:hover li a{
+    opacity: 0.3;
+}
+.nav-bar li a:hover{
+    opacity: 1;
+    background: #2080ce;
+}
+
+.logo1 ul{
+    list-style: none;
+}
+#logo{
+  float: left;
+  padding: 0px 8em;
+  text-decoration: none;
+}
+#logo a{
+ position:absolute;
+ display: block;
+ top: 0px;
+}
+#logo a:hover{
+    opacity: 0.5;
+}
+.text2{   
+    padding: 0;
+    clear: both;
+}
+.aboutme{
+    color: black;
+    margin: auto;
+    text-align: center;
+    font-family: AdventPro;
+}
+.text2 p{
+    
+    font-size: 27px;
+    text-align: center;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.04em;
+    color: rgb(53, 52, 52);
+}
+.text3{
+    background-color: rgb(41, 42, 43);   
+    padding: 4px;
+    color: white;
+    font-family: AdventPro;
+}
+.text3 #top{
+     text-align: center;
+     margin: 0em 5em 0em 4em;
+    font-size: 67px;
+    
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+}
+
+
+.inline{
+    border: 2px solid rgb(56, 74, 231);
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    box-shadow: 0 0 10px #49bbe9;
+}
+.inline #outline{
+    background: rgb(16, 52, 214);
+    width: 55%;
+    padding: 16px;
+    animation: outline 4s;
+}
+
+.inline1{
+    border: 2px solid rgb(56, 74, 231);
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    box-shadow: 0 0 10px #49bbe9;
+}
+.inline1 #outline1{
+    background: rgb(255, 0, 55);
+    width: 90%;
+    padding: 16px;
+    animation: outline1 4s;
+}
+.inline2{
+    border: 2px solid rgb(56, 74, 231);
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    box-shadow: 0 0 10px #49bbe9;
+}
+.inline2 #outline2{
+    background: rgb(255, 94, 0);
+    width: 70%;
+    padding: 16px;
+    animation: outline2 4s;
+}
+.inline3{
+    border: 2px solid rgb(56, 74, 231);
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    box-shadow: 0 0 10px #49bbe9;
+}
+.inline3 #outline3{
+    background: rgb(0, 255, 149);
+    width: 60%;
+    padding: 16px;
+    animation: outline3 4s;
+}
+
+@keyframes outline {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+@keyframes outline1 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes outline2 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes outline3 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+.text4{
+    background-color: white;
+    padding: 0 0 16vh 0;
+}
+.text4 img{
+position: relative;
+float: left;
+padding: 4px;
+}
+
+.text4 h1{
+    position: relative;
+    text-align: center;
+    font-size: 7em;
+    top: 12vh;
+font-family: AdventPro;
+}
+.text4 p{
+    position: relative;
+    text-align: center;
+    font-size: 3em;
+    top: 9vh;    
+    font-weight: 700;
+    font-family: AlluraPro;
+    
+}
+.footer{
+    border-top: 1px black solid;
+    border-bottom: 25px rgb(0, 0, 0) solid;
+    position:relative;
+    font-family: AdventPro;
+    font-size: 1.5em;
+}
+
+.footer p {
+    clear: both;
+    color: black;
+    
+    text-align: center;
+    padding: 2vh;
+
+    margin: 0%;
+    margin-left: 0%;
+}
+@font-face{
+    font-family: AdventPro;
+    src: url("AdventPro-Regular.ttf");
+}
+@font-face{
+    font-family: AlluraPro;
+    src: url("Allura-Regular.ttf");
+}
+@font-face{
+    font-family: AladinPro;
+    src: url("Delius-Regular.ttf");
+}
+
+
+.nav-bar2{
+    margin:auto;
+    list-style: none;
+    text-align: left;
+    padding: auto;
+    padding: 1vh;       
+    display: block;  
+    box-sizing: border-box;
+  
+}
+.nav-bar2 li{
+    justify-content: space-between;
+    max-width: 120em;    
+    margin: 1em;
+    display: inline-block;
+    float: none;    
+}
+
+.nav-bar2 li:nth-child(1){
+    color: blue;
+}
+
+.nav-bar2 li a{
+    text-decoration: none;
+    color: black;
+    font-family: AladinPro;    
+    font-style: initial;
+    display: block;
+    padding: 5px;
+  
+}
+.nav-bar2:hover li a{
+    opacity: 0.3;
+}
+.nav-bar2 li a:hover{
+    opacity: 1;
+    background: #2080ce;
+}

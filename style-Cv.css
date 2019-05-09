@@ -1,0 +1,216 @@
+body{
+    background-color: rgb(236, 236, 236);
+    overflow-x: hidden;
+}
+.background img{    
+    position: relative;
+    width: 102%;    
+    top: -2vh;
+    display: cover;
+    left: -2vh;
+    overflow-x: hidden;
+    z-index: -1;
+    opacity: 1;
+    clear: both;
+    height: 16vh;
+}
+.nav-bar{
+    list-style: none;    
+    margin: 2em 11% 0 1em;
+    padding: 1vh;    
+    display: block;  
+    position: absolute; right: 2vh;
+}
+.nav-bar li{
+    justify-content: space-between;
+    max-width: 120em;    
+    margin: 1em;
+    display: inline-block;
+    float: none;    
+}
+
+.nav-bar li:nth-child(1){
+    color: blue;
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    color: white;
+    font-family: AladinPro;
+    font-style: initial;
+    display: block;
+    padding: 5px;
+}
+.nav-bar:hover li a{
+    opacity: 0.3;
+}
+.nav-bar li a:hover{
+    opacity: 1;
+    background: #2080ce;
+}
+
+.logo1 ul{
+    list-style: none;
+}
+#logo{
+  float: left;
+  padding: 0px 8em;
+  text-decoration: none;
+}
+#logo a{
+ position:absolute;
+ display: block;
+ top: 0px;
+}
+#logo a:hover{
+    opacity: 0.5;
+}
+
+.text3{
+    background-color: white;   
+    padding: 4px;
+    font-family: AdventPro;
+}
+.text3 #top{
+     text-align: center;
+     margin: 0em 5em 0em 4em;
+    font-size: 67px;    
+    color: rgb(51, 49, 49);
+    border: 3px solid black;
+}
+.text3 h1:hover{
+    border-color: pink;
+}
+
+.inline{
+    border: 2px solid rgb(0, 255, 200);
+    background-color: rgb(39, 38, 39);
+    padding: 4px;
+    box-shadow: 0 0 10px #0019fd;
+}
+.inline #outline{
+    background: rgb(0, 255, 149);
+    width: 55%;
+    padding: 16px;
+    animation: outline 4s;
+}
+
+.inline1{
+    border: 2px solid rgb(0, 255, 200);
+    background-color: rgb(39, 38, 39);
+    padding: 4px;
+    box-shadow: 0 0 10px #0019fd;
+}
+.inline1 #outline1{
+    background: rgb(0, 255, 149);
+    width: 90%;
+    padding: 16px;
+    animation: outline1 4s;
+}
+.inline2{
+    border: 2px solid rgb(0, 255, 200);
+    background-color: rgb(39, 38, 39);
+    padding: 4px;
+    box-shadow: 0 0 10px #0019fd;
+}
+.inline2 #outline2{
+    background: rgb(0, 255, 149);
+    width: 70%;
+    padding: 16px;
+    animation: outline2 4s;
+}
+.inline3{
+    border: 2px solid rgb(0, 255, 200);
+    background-color: rgb(39, 38, 39);
+    padding: 4px;
+    box-shadow: 0 0 10px #0019fd;
+}
+.inline3 #outline3{
+    background: rgb(0, 255, 149);
+    width: 60%;
+    padding: 16px;
+    animation: outline3 4s;
+}
+.inline4{
+    border: 2px solid rgb(0, 255, 200);
+    background-color: rgb(39, 38, 39);
+    padding: 4px;
+    box-shadow: 0 0 10px #0019fd;
+}
+.inline4 #outline4{
+    background: rgb(0, 255, 149);
+    width: 12%;
+    padding: 16px;
+    animation: outline4 4s;
+}
+
+@keyframes outline {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+@keyframes outline1 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes outline2 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes outline3 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes outline4 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 12%;
+    }
+}
+.text4{
+    background-color: white;
+    padding: 0 0 16vh 0;
+}
+
+.footer{
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+.footer p {
+    clear: both;
+    color: black;    
+    text-align: center;
+    padding: 4vh;
+    margin: 0%;
+    margin-left: 0%;
+}
+@font-face{
+    font-family: AdventPro;
+    src: url("AnnieUseYourTelescope-Regular.ttf");
+}
+@font-face{
+    font-family: AlluraPro;
+    src: url("Allura-Regular.ttf");
+}
+@font-face{
+    font-family: AladinPro;
+    src: url("Delius-Regular.ttf");
+}
